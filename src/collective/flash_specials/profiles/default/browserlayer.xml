@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<layers>
+  <layer
+    name="collective.flash_specials"
+    interface="collective.flash_specials.interfaces.ICollectiveFlash_specialsLayer"
+  />
+</layers>
