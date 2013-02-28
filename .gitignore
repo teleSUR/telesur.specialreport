@@ -7,3 +7,6 @@ include
 lib
 parts
 var
+local.cfg
+src/plone.*
+src/collective.*

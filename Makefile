@@ -4,6 +4,9 @@
 version = 2.7
 python = bin/python
 options =
+minimum_coverage = 80
+pep8_ignores = E501
+max_complexity = 12
 
 all: docs tests
 
@@ -21,7 +24,7 @@ bin/sphinx-build: .installed.cfg
 	bin/buildout $(options)
 
 bin/buildout: $(python) buildout.cfg bootstrap.py
-	$(python) bootstrap.py -d
+	$(python) bootstrap.py -d -v 1.6.3
 	@touch $@
 
 $(python):
@@ -30,7 +33,7 @@ $(python):
 
 tests: .installed.cfg
 	@bin/test
-	@bin/flake8 src/collective/flash_specials
+	@bin/flake8 --ignore=$(pep8_ignores) --max-complexity=$(max_complexity) src/collective/flash_specials
 	@for pt in `find src/collective/flash_specials -name "*.pt"` ; do bin/zptlint $$pt; done
 	@for xml in `find src/collective/flash_specials -name "*.xml"` ; do bin/zptlint $$xml; done
 	@for zcml in `find src/collective/flash_specials -name "*.zcml"` ; do bin/zptlint $$zcml; done

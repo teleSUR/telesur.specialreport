@@ -43,6 +43,7 @@ setup(
         'plone.api',
         'setuptools',
         'z3c.jbot',
+        'plone.app.dexterity',
     ],
     extras_require={
         'test': [
@@ -58,7 +59,6 @@ setup(
             'plone.reload',
             'Products.Clouseau',
             'Products.DocFinderTab',
-            'Products.PDBDebugMode',
             'Products.PrintingMailHost',
             'Sphinx',
             'zest.releaser',
