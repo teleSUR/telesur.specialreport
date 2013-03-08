@@ -1,13 +1,13 @@
-====================
-collective.flash_specials
-====================
+=====================
+telesur.specialreport
+=====================
 
 A Plone add-on that ...
 
-* `Source code @ GitHub <https://github.com/jpgimenez/collective.flash_specials>`_
-* `Releases @ PyPI <http://pypi.python.org/pypi/collective.flash_specials>`_
-* `Documentation @ ReadTheDocs <http://collectiveflash_specials.readthedocs.org>`_
-* `Continuous Integration @ Travis-CI <http://travis-ci.org/jpgimenez/collective.flash_specials>`_
+* `Source code @ GitHub <https://github.com/jpgimenez/telesur.specialreport>`_
+* `Releases @ PyPI <http://pypi.python.org/pypi/telesur.specialreport>`_
+* `Documentation @ ReadTheDocs <http://telesur_specialreport.readthedocs.org>`_
+* `Continuous Integration @ Travis-CI <http://travis-ci.org/jpgimenez/telesur.specialreport>`_
 
 How it works
 ============
@@ -18,9 +18,9 @@ How it works
 Installation
 ============
 
-To install `collective.flash_specials` you simply add ``collective.flash_specials``
+To install `telesur.specialreport` you simply add ``telesur.specialreport``
 to the list of eggs in your buildout, run buildout and restart Plone.
-Then, install `collective.flash_specials` using the Add-ons control panel.
+Then, install `telesur.specialreport` using the Add-ons control panel.
 
 
 Configuration

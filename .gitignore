@@ -1,5 +1,9 @@
+*.egg-info
 .installed.cfg
 .mr.developer.cfg
+.project
+.pydevproject
+.settings
 bin
 develop-eggs
 docs/html

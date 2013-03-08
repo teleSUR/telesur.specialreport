@@ -15,21 +15,21 @@ from plone.testing import z2
 import unittest2 as unittest
 
 
-class CollectiveFlash_specialsLayer(PloneSandboxLayer):
+class TelesurSpecialreportLayer(PloneSandboxLayer):
 
     defaultBases = (PLONE_FIXTURE,)
 
     def setUpZope(self, app, configurationContext):
         """Set up Zope."""
         # Load ZCML
-        import collective.flash_specials
-        self.loadZCML(package=collective.flash_specials)
-        z2.installProduct(app, 'collective.flash_specials')
+        import telesur.specialreport
+        self.loadZCML(package=telesur.specialreport)
+        z2.installProduct(app, 'telesur.specialreport')
 
     def setUpPloneSite(self, portal):
         """Set up Plone."""
         # Install into Plone site using portal_setup
-        applyProfile(portal, 'collective.flash_specials:default')
+        applyProfile(portal, 'telesur.specialreport:default')
 
         # Login and create some test content
         setRoles(portal, TEST_USER_ID, ['Manager'])
@@ -43,14 +43,14 @@ class CollectiveFlash_specialsLayer(PloneSandboxLayer):
 
     def tearDownZope(self, app):
         """Tear down Zope."""
-        z2.uninstallProduct(app, 'collective.flash_specials')
+        z2.uninstallProduct(app, 'telesur.specialreport')
 
 
-FIXTURE = CollectiveFlash_specialsLayer()
+FIXTURE = TelesurSpecialreportLayer()
 INTEGRATION_TESTING = IntegrationTesting(
-    bases=(FIXTURE,), name="CollectiveFlash_specialsLayer:Integration")
+    bases=(FIXTURE,), name="TelesurSpecialreportLayer:Integration")
 FUNCTIONAL_TESTING = FunctionalTesting(
-    bases=(FIXTURE,), name="CollectiveFlash_specialsLayer:Functional")
+    bases=(FIXTURE,), name="TelesurSpecialreportLayer:Functional")
 
 
 class IntegrationTestCase(unittest.TestCase):

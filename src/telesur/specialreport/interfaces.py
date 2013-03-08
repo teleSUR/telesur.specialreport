@@ -4,5 +4,5 @@
 from plone.theme.interfaces import IDefaultPloneLayer
 
 
-class ICollectiveFlash_specialsLayer(IDefaultPloneLayer):
+class ITelesurSpecialreportLayer(IDefaultPloneLayer):
     """Marker interface that defines a Zope 3 browser layer."""

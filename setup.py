@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-"""Installer for the collective.flash_specials package."""
+"""Installer for the telesur.specialreport package."""
 
 from setuptools import find_packages
 from setuptools import setup
@@ -16,7 +16,7 @@ long_description = \
     read('docs', 'LICENSE.rst')
 
 setup(
-    name='collective.flash_specials',
+    name='telesur.specialreport',
     version='0.1',
     description="Content type to upload flash files.",
     long_description=long_description,
@@ -28,10 +28,10 @@ setup(
     keywords='plone, flash',
     author='Juan Pablo Giménez',
     author_email='jpg@rosario.com',
-    url='http://pypi.python.org/pypi/collective.flash_specials',
+    url='http://pypi.python.org/pypi/telesur.specialreport',
     license='BSD',
     packages=find_packages('src', exclude=['ez_setup']),
-    namespace_packages=['collective'],
+    namespace_packages=['telesur'],
     package_dir={'': 'src'},
     include_package_data=True,
     zip_safe=False,

@@ -6,23 +6,23 @@ API
 Miscellaneous
 =============
 
-.. automodule:: collective.flash_specials
+.. automodule:: telesur.specialreport
     :members:
 
 ----
 
-.. automodule:: collective.flash_specials.interfaces
+.. automodule:: telesur.specialreport.interfaces
     :members:
 
 
 Tests
 =====
 
-.. automodule:: collective.flash_specials.testing
+.. automodule:: telesur.specialreport.testing
     :members:
 
 ----
 
-.. automodule:: collective.flash_specials.tests.test_setup
+.. automodule:: telesur.specialreport.tests.test_setup
     :members:
 

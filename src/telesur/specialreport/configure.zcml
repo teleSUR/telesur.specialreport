@@ -5,7 +5,7 @@
     xmlns:grok="http://namespaces.zope.org/grok"
     xmlns:i18n="http://namespaces.zope.org/i18n"
     xmlns:genericsetup="http://namespaces.zope.org/genericsetup"
-    i18n_domain="collective.flash_specials">
+    i18n_domain="telesur.specialreport">
 
     <!-- Zope2 initialization -->
     <five:registerPackage package="." initialize=".initialize" />
@@ -22,9 +22,9 @@
     <!-- Register the installation GenericSetup extension profile -->
     <genericsetup:registerProfile
         name="default"
-        title="collective.flash_specials"
+        title="telesur.specialreport"
         directory="profiles/default"
-        description="Extension profile for collective.flash_specials."
+        description="Extension profile for telesur.specialreport."
         provides="Products.GenericSetup.interfaces.EXTENSION"
         />
 

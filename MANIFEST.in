@@ -1,2 +1,2 @@
-graft src/collective
+graft src/telesur
 include *.cfg *.rst *.in

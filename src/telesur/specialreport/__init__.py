@@ -3,7 +3,7 @@
 
 from zope.i18nmessageid import MessageFactory
 
-_ = MessageFactory('collective.flash_specials')
+_ = MessageFactory('telesur.specialreport')
 
 
 def initialize(context):

@@ -4,7 +4,7 @@ from five import grok
 from plone.dexterity.content import Item
 
 
-_ = MessageFactory('collective.flash_specials')
+_ = MessageFactory('telesur.specialreport')
 
 
 class FlashSpecialView(grok.View):
