@@ -10,7 +10,7 @@
     name="add_view_expr">string:${folder_url}/++add++telesur.specialreport</property>
  <property name="link_target"></property>
  <property name="immediate_view">view</property>
- <property name="global_allow">True</property>
+ <property name="global_allow">False</property>
  <property name="filter_content_types">True</property>
  <property name="allowed_content_types"/>
  <property name="allow_discussion">False</property>
@@ -20,10 +20,12 @@
  </property>
  <property name="default_view_fallback">False</property>
  <property name="add_permission">cmf.AddPortalContent</property>
- <property name="klass">plone.dexterity.content.Item</property>
+ <property name="klass">plone.dexterity.content.Container</property>
  <property name="behaviors">
   <element value="plone.app.dexterity.behaviors.metadata.IDublinCore"/>
   <element value="plone.app.content.interfaces.INameFromTitle"/>
+  <element value="collective.behavior.localdiazo.behavior.ILocalDiazo"/>
+  <element value="collective.behavior.localregistry.behavior.ILocalRegistry"/>
  </property>
  <property name="schema"></property>
  <property
@@ -32,6 +34,20 @@
       &lt;field name="file" type="plone.namedfile.field.NamedFile"&gt;
         &lt;description /&gt;
         &lt;title&gt;file&lt;/title&gt;
+      &lt;/field&gt;
+      &lt;field name="image" type="plone.namedfile.field.NamedBlobImage"&gt;
+        &lt;description /&gt;
+        &lt;title&gt;Image&lt;/title&gt;
+      &lt;/field&gt;
+      &lt;field name="width" type="zope.schema.Int"&gt;
+        &lt;description /&gt;
+        &lt;default&gt;640&lt;/default&gt;
+        &lt;title&gt;Width&lt;/title&gt;
+      &lt;/field&gt;
+      &lt;field name="height" type="zope.schema.Int"&gt;
+        &lt;description /&gt;
+        &lt;default&gt;480&lt;/default&gt;
+        &lt;title&gt;Height&lt;/title&gt;
       &lt;/field&gt;
     &lt;/schema&gt;
   &lt;/model&gt;</property>

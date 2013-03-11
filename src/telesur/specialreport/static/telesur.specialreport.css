@@ -1,0 +1,5 @@
+.template-telesurspecialreportfolderview .tileItem {
+	float: left;
+	width: 25%;
+	min-width: 200px;
+}

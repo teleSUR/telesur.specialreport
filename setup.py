@@ -43,6 +43,9 @@ setup(
         'plone.api',
         'setuptools',
         'z3c.jbot',
+        'collective.behavior.localregistry',
+        'collective.behavior.localdiazo',
+        'plone.app.theming',
         'plone.app.dexterity',
     ],
     extras_require={
