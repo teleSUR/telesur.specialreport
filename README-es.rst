@@ -18,21 +18,21 @@ Configuración
 Para poder aplicar temas propios a cada 'especial' primero debemos instalar dichos temas Diazo.
 Para hacerlo se puede cargar el zip del tema al panel de control de Diazo siguiendo los siguientes pasos:
 
- * Buscar en http://pypi.python.org/pypi/ los temas disponibles para Plone.
+Buscar en http://pypi.python.org/pypi/ los temas disponibles para Plone.
 
 .. figure:: https://raw.github.com/teleSUR/telesur.specialreport/master/docs/config1.png
     :align: center
     :height: 405px
     :width: 706px
 
- * Elejir uno para el cual exista un archivo zip que pueda ser descargado.
+Elejir uno para el cual exista un archivo zip que pueda ser descargado.
 
 .. figure:: https://raw.github.com/teleSUR/telesur.specialreport/master/docs/config2.png
     :align: center
     :height: 405px
     :width: 706px
 
- * Descargar el archivo y cargarlo en el panel de control de Diazo, "Configuración del Sitio" -> "Diazo theme" -> "Import theme", la opciones "Immediately enable new theme" y "Replace existing theme" deben estar desactivadas.
+Descargar el archivo y cargarlo en el panel de control de Diazo, "Configuración del Sitio" -> "Diazo theme" -> "Import theme", la opciones "Immediately enable new theme" y "Replace existing theme" deben estar desactivadas.
 
 .. figure:: https://raw.github.com/teleSUR/telesur.specialreport/master/docs/config3.png
     :align: center
