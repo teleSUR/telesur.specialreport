@@ -1,4 +1,5 @@
 *.egg-info
+*.pyc
 .installed.cfg
 .mr.developer.cfg
 .project
@@ -9,8 +10,9 @@ develop-eggs
 docs/html
 include
 lib
-parts
-var
 local.cfg
-src/plone.*
+Makefile
+parts
 src/collective.*
+src/plone.*
+var
