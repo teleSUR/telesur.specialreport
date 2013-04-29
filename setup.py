@@ -47,6 +47,7 @@ setup(
         'collective.behavior.localdiazo',
         'plone.app.theming',
         'plone.app.dexterity',
+        'plone.namedfile[blobs]'
     ],
     extras_require={
         'test': [
