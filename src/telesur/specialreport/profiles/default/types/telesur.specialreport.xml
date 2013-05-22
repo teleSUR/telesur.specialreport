@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<object name="telesur.specialreport" meta_type="Dexterity FTI" i18n:domain="plone"
+<object name="telesur.specialreport" meta_type="Dexterity FTI" i18n:domain="telesur.specialreport"
    xmlns:i18n="http://xml.zope.org/namespaces/i18n">
  <property name="title" i18n:translate="">Flash special</property>
  <property name="description"
@@ -27,31 +27,7 @@
   <element value="collective.behavior.localdiazo.behavior.ILocalDiazo"/>
   <element value="collective.behavior.localregistry.behavior.ILocalRegistry"/>
  </property>
- <property name="schema"></property>
- <property
-    name="model_source">&lt;model xmlns="http://namespaces.plone.org/supermodel/schema"&gt;
-    &lt;schema&gt;
-      &lt;field name="file" type="plone.namedfile.field.NamedFile"&gt;
-        &lt;description /&gt;
-        &lt;title&gt;file&lt;/title&gt;
-      &lt;/field&gt;
-      &lt;field name="image" type="plone.namedfile.field.NamedBlobImage"&gt;
-        &lt;description /&gt;
-        &lt;title&gt;Image&lt;/title&gt;
-      &lt;/field&gt;
-      &lt;field name="width" type="zope.schema.Int"&gt;
-        &lt;description /&gt;
-        &lt;default&gt;640&lt;/default&gt;
-        &lt;title&gt;Width&lt;/title&gt;
-      &lt;/field&gt;
-      &lt;field name="height" type="zope.schema.Int"&gt;
-        &lt;description /&gt;
-        &lt;default&gt;480&lt;/default&gt;
-        &lt;title&gt;Height&lt;/title&gt;
-      &lt;/field&gt;
-    &lt;/schema&gt;
-  &lt;/model&gt;</property>
- <property name="model_file"></property>
+ <property name="schema">telesur.forums.content.forum.IForum</property>
  <alias from="(Default)" to="(dynamic view)"/>
  <alias from="edit" to="@@edit"/>
  <alias from="sharing" to="@@sharing"/>

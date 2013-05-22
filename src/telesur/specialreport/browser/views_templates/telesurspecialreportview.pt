@@ -15,43 +15,43 @@
 
         <div tal:replace="structure provider:plone.belowcontenttitle" />
 
-        <object width="1024" height="650" align="middle" id="RenunciaDePapas-2000AHistoria" 
+        <object width="1024" height="650" align="middle" id="RenunciaDePapas-2000AHistoria"
                 classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000"
                 codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,40,0"
                 tal:attributes="width context/width;
                                 height context/height;">
                 <param value="" name="movie"
-                       tal:attributes="value string:${context/absolute_url}/@@display-file/file/special.swf">
-                <param value="high" name="quality">
-                <param value="#ffffff" name="bgcolor">
-                <param value="true" name="play">
-                <param value="true" name="loop">
-                <param value="window" name="wmode">
-                <param value="showall" name="scale">
-                <param value="true" name="menu">
-                <param value="false" name="devicefont">
-                <param value="" name="salign">
-                <param value="sameDomain" name="allowScriptAccess">
+                       tal:attributes="value string:${context/absolute_url}/@@display-file/file/special.swf" />
+                <param value="high" name="quality" />
+                <param value="#ffffff" name="bgcolor" />
+                <param value="true" name="play" />
+                <param value="true" name="loop" />
+                <param value="window" name="wmode" />
+                <param value="showall" name="scale" />
+                <param value="true" name="menu" />
+                <param value="false" name="device font" />
+                <param value="" name="salign" />
+                <param value="sameDomain" name="allowScriptAccess" />
                 <!--[if !IE]>-->
                 <object width="1024" height="650" data="" type="application/x-shockwave-flash"
                         tal:attributes="data string:${context/absolute_url}/@@display-file/file/special.swf;
                                         width context/width;
                                 		height context/height;">
                     <param value="" name="movie"
-                           tal:attributes="value string:${context/absolute_url}/@@display-file/file/special.swf">
-                    <param value="high" name="quality">
-                    <param value="#ffffff" name="bgcolor">
-                    <param value="true" name="play">
-                    <param value="true" name="loop">
-                    <param value="window" name="wmode">
-                    <param value="showall" name="scale">
-                    <param value="true" name="menu">
-                    <param value="false" name="devicefont">
-                    <param value="" name="salign">
-                    <param value="sameDomain" name="allowScriptAccess">
+                           tal:attributes="value string:${context/absolute_url}/@@display-file/file/special.swf" />
+                    <param value="high" name="quality" />
+                    <param value="#ffffff" name="bgcolor" />
+                    <param value="true" name="play" />
+                    <param value="true" name="loop" />
+                    <param value="window" name="wmode" />
+                    <param value="showall" name="scale" />
+                    <param value="true" name="menu" />
+                    <param value="false" name="devicefont" />
+                    <param value="" name="salign" />
+                    <param value="sameDomain" name="allowScriptAccess" />
                 <!--<![endif]-->
                 <a href="http://www.adobe.com/go/getflash">
-                    <img alt="Get Adobe Flash player" src="http://www.adobe.com/images/shared/download_buttons/get_flash_player.gif">
+                    <img alt="Get Adobe Flash player" src="http://www.adobe.com/images/shared/download_buttons/get_flash_player.gif" i18n:attributes="alt" />
                 </a>
                 <!--[if !IE]>-->
                 </object>
