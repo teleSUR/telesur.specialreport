@@ -27,7 +27,7 @@
   <element value="collective.behavior.localdiazo.behavior.ILocalDiazo"/>
   <element value="collective.behavior.localregistry.behavior.ILocalRegistry"/>
  </property>
- <property name="schema">telesur.forums.content.forum.IForum</property>
+ <property name="schema">telesur.specialreport.content.ISpecialReport</property>
  <alias from="(Default)" to="(dynamic view)"/>
  <alias from="edit" to="@@edit"/>
  <alias from="sharing" to="@@sharing"/>
